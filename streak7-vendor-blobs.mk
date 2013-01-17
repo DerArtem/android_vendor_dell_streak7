@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
  vendor/dell/streak7/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
  vendor/dell/streak7/proprietary/usr/keylayout/ATA2538_capkey.kl:system/usr/keylayout/ATA2538_capkey.kl \
  vendor/dell/streak7/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
- vendor/dell/streak7/proprietary/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
  vendor/dell/streak7/proprietary/usr/keylayout/tegra_keypad.kl:system/usr/keylayout/tegra_keypad.kl \
  vendor/dell/streak7/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
  vendor/dell/streak7/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
@@ -138,7 +137,6 @@ PRODUCT_COPY_FILES += \
  vendor/dell/streak7/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
  vendor/dell/streak7/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
  vendor/dell/streak7/proprietary/lib/hw/overlay.tegra.so:system/lib/hw/overlay.tegra.so \
- vendor/dell/streak7/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
  vendor/dell/streak7/proprietary/lib/gps.tegra.so:system/lib/gps.tegra.so \
  vendor/dell/streak7/proprietary/bin/sensors_daemon:system/bin/sensors_daemon \
  vendor/dell/streak7/proprietary/bin/wifid:system/bin/wifid \
@@ -150,5 +148,10 @@ PRODUCT_COPY_FILES += \
  vendor/dell/streak7/proprietary/etc/gps.conf:system/etc/gps.conf \
  vendor/dell/streak7/proprietary/etc/gpsconfig.xml:system/etc/gpsconfig.xml \
  vendor/dell/streak7/proprietary/bin/sensors_daemon:system/bin/sensors_daemon \
- vendor/dell/streak7/proprietary/lib/hw/tegra_alsa.streak7.so:system/lib/hw/tegra_alsa.streak7.so \
+ vendor/dell/streak7/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+ vendor/dell/streak7/proprietary/lib/libril_rds.so:system/lib/libril_rds.so \
+ vendor/dell/streak7/proprietary/lib/librds_util.so:system/lib/librds_util.so \
+ vendor/dell/streak7/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
  vendor/dell/streak7/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
+ vendor/dell/streak7/proprietary/lib/hw/tegra_alsa.tegra.so:system/lib/hw/tegra_alsa.tegra.so \
+ vendor/dell/streak7/proprietary/lib/hw/sensors.p3.so:system/lib/hw/sensors.p3.so \
