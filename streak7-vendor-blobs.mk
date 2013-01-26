@@ -45,9 +45,6 @@ PRODUCT_COPY_FILES += \
  vendor/dell/streak7/proprietary/lib/omxplayer.so:system/lib/omxplayer.so \
  vendor/dell/streak7/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
  vendor/dell/streak7/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
- vendor/dell/streak7/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
- vendor/dell/streak7/proprietary/lib/libaudio.so:system/lib/libaudio.so \
- vendor/dell/streak7/proprietary/lib/libasound.so:system/lib/libasound.so \
  vendor/dell/streak7/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
  vendor/dell/streak7/proprietary/lib/libnvmm.so:system/lib/libnvmm.so \
  vendor/dell/streak7/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
@@ -112,23 +109,6 @@ PRODUCT_COPY_FILES += \
  vendor/dell/streak7/proprietary/etc/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
  vendor/dell/streak7/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
  vendor/dell/streak7/proprietary/etc/nvram.txt:system/etc/nvram.txt \
- vendor/dell/streak7/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
- vendor/dell/streak7/proprietary/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
  vendor/dell/streak7/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
  vendor/dell/streak7/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
  vendor/dell/streak7/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
@@ -148,10 +128,7 @@ PRODUCT_COPY_FILES += \
  vendor/dell/streak7/proprietary/etc/gps.conf:system/etc/gps.conf \
  vendor/dell/streak7/proprietary/etc/gpsconfig.xml:system/etc/gpsconfig.xml \
  vendor/dell/streak7/proprietary/bin/sensors_daemon:system/bin/sensors_daemon \
- vendor/dell/streak7/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
  vendor/dell/streak7/proprietary/lib/libril_rds.so:system/lib/libril_rds.so \
  vendor/dell/streak7/proprietary/lib/librds_util.so:system/lib/librds_util.so \
  vendor/dell/streak7/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
- vendor/dell/streak7/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
- vendor/dell/streak7/proprietary/lib/hw/tegra_alsa.tegra.so:system/lib/hw/tegra_alsa.tegra.so \
  vendor/dell/streak7/proprietary/lib/hw/sensors.p3.so:system/lib/hw/sensors.p3.so \
