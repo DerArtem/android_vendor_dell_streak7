@@ -108,16 +108,14 @@ PRODUCT_COPY_FILES += \
  vendor/dell/streak7/proprietary/etc/firmware/nvmm_wmaprodec.axf:system/etc/firmware/nvmm_wmaprodec.axf \
  vendor/dell/streak7/proprietary/etc/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
  vendor/dell/streak7/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
- vendor/dell/streak7/proprietary/etc/nvram.txt:system/etc/nvram.txt \
  vendor/dell/streak7/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
  vendor/dell/streak7/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
  vendor/dell/streak7/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
  vendor/dell/streak7/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
- vendor/dell/streak7/proprietary/lib/gps.tegra.so:system/lib/gps.tegra.so \
+ vendor/dell/streak7/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
  vendor/dell/streak7/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
  vendor/dell/streak7/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
  vendor/dell/streak7/proprietary/lib/hw/overlay.tegra.so:system/lib/hw/overlay.tegra.so \
- vendor/dell/streak7/proprietary/lib/gps.tegra.so:system/lib/gps.tegra.so \
  vendor/dell/streak7/proprietary/bin/sensors_daemon:system/bin/sensors_daemon \
  vendor/dell/streak7/proprietary/bin/wifid:system/bin/wifid \
  vendor/dell/streak7/proprietary/bin/lfinit:system/bin/lfinit \
@@ -125,8 +123,6 @@ PRODUCT_COPY_FILES += \
  vendor/dell/streak7/proprietary/bin/nvrm_daemon:system/bin/nvrm_daemon \
  vendor/dell/streak7/proprietary/bin/nvtest:system/bin/nvtest \
  vendor/dell/streak7/proprietary/bin/glgps:system/bin/glgps \
- vendor/dell/streak7/proprietary/etc/gps.conf:system/etc/gps.conf \
- vendor/dell/streak7/proprietary/etc/gpsconfig.xml:system/etc/gpsconfig.xml \
  vendor/dell/streak7/proprietary/bin/sensors_daemon:system/bin/sensors_daemon \
  vendor/dell/streak7/proprietary/lib/libril_rds.so:system/lib/libril_rds.so \
  vendor/dell/streak7/proprietary/lib/librds_util.so:system/lib/librds_util.so \
